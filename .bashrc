@@ -115,6 +115,14 @@ sudo pacman -S $1 $2 $3
 mp3(){
 ytdl -x --audio-format mp3 $1 $2 $3
 }
+timeme(){
+clear && 
+echo "aight" &&
+sleep 22.5m &&
+gpicview ~/Pictures/.script/00.png &&
+sleep 22.5m &&
+gpicview ~/Pictures/.script/01.png
+}
 xhost +local:root > /dev/null 2>&1
 
 complete -cf sudo
